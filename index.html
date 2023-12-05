@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>関数の作成</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "9-1.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+	<div class="code">
+		<p>　　	void setup(){
+		<p>　　	　println("Ready to roll!");
+		<p>　　	　rollDice(20);
+		<p>　　	　rollDice(20);
+		<p>　　	　rollDice(6);
+		<p>　　	　println("Finshed");
+		<p>　　	}　
+		<p>　　	　
+		<p>　　	　void rollDice(int numSides){
+		<p>　　	　　int d=1+int(random(numSides));
+		<p>　　	　　println("Rolling..."+d);
+		<p>　　	　}
+	</div>
+	</div>
+</div>
+
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　関数は自分で作ることができる。
+	<p>　今回のプログラムではrollDice()という関数を作り、その関数の処理を[void　rollDice()]で行っている。
+	<p>　rollDice()関数が読み込まれるたびに[void　rollDice()]の処理を毎回行う。
+	<p>　 
+	<p>　このプログラムではrandom()関数を用いて、3つの異なる数字をコンソールに表示している。
+	<p>　1、2個目のrollDiceでは1~20の乱数を表示し、3つ目は1~6の乱数を表示している。
+	<p>　random()関数は浮動小数点数のため、整数を表示させるためには出力した値をint型にコンバートする必要がある。
+</div>
+
+</body>
+
+

@@ -1,7 +1,14 @@
 <!DOCTYPE html>
+<html lang="jp">
+
 <head>
-<meta charset="UTF=8">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=M+PLUS+1p:wght@500&family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,17 +29,17 @@
 	<div class="yoko1">
 	<div class="komidasi2"><p>サンプルコード</div>
 	<div class="code">
-		<p>　　	void setup(){
-		<p>　　	　println("Ready to roll!");
+		<p>　　	<a href="https://o-saringu.github.io/5-2/"target="_blank" rel="noopener noreferrer" >void setup()</a>{
+		<p>　　	　<a href="https://o-saringu.github.io/printIn/"target="_blank" rel="noopener noreferrer" >println</a>("Ready to roll!");
 		<p>　　	　rollDice(20);
 		<p>　　	　rollDice(20);
 		<p>　　	　rollDice(6);
-		<p>　　	　println("Finshed");
+		<p>　　	　<a href="https://o-saringu.github.io/printIn/"target="_blank" rel="noopener noreferrer" >println</a>("Finshed");
 		<p>　　	}　
 		<p>　　	　
-		<p>　　	　void rollDice(int numSides){
-		<p>　　	　　int d=1+int(random(numSides));
-		<p>　　	　　println("Rolling..."+d);
+		<p>　　	　void rollDice(<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >int</a> numSides){
+		<p>　　	　　<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >int</a> d=1+int(<a href="https://o-saringu.github.io/8-5/"target="_blank" rel="noopener noreferrer" >random</a>(numSides));
+		<p>　　	　　<a href="https://o-saringu.github.io/printin/"target="_blank" rel="noopener noreferrer" >println</a>("Rolling..."+d);
 		<p>　　	　}
 	</div>
 	</div>
@@ -45,9 +52,9 @@
 	<p>　今回のプログラムではrollDice()という関数を作り、その関数の処理を[void　rollDice()]で行っている。
 	<p>　rollDice()関数が読み込まれるたびに[void　rollDice()]の処理を毎回行う。
 	<p>　 
-	<p>　このプログラムではrandom()関数を用いて、3つの異なる数字をコンソールに表示している。
+	<p>　このプログラムでは<a href="https://o-saringu.github.io/8-5/"target="_blank" rel="noopener noreferrer" >random()関数</a>を用いて、3つの異なる数字をコンソールに表示している。
 	<p>　1、2個目のrollDiceでは1~20の乱数を表示し、3つ目は1~6の乱数を表示している。
-	<p>　random()関数は浮動小数点数のため、整数を表示させるためには出力した値をint型にコンバートする必要がある。
+	<p>　<a href="https://o-saringu.github.io/8-5/"target="_blank" rel="noopener noreferrer" >random()関数</a>は浮動小数点数のため、整数を表示させるためには出力した値を<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >int型</a>にコンバートする必要がある。
 </div>
 
 </body>
